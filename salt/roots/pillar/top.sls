@@ -1,3 +1,4 @@
 base:
   '*':
+    - podman
     - nginx
