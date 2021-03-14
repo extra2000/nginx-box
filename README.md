@@ -11,7 +11,10 @@ Developer box for [NGINX](https://www.nginx.com/).
 
 Copy example pillar file NGINX. Optionally you may want to edit the values in the `nginx.sls`:
 ```
+$ cp -v salt/roots/pillar/zabbix-agent.sls.example salt/roots/pillar/zabbix-agent.sls
+$ cp -v salt/roots/pillar/filebeat.sls.example salt/roots/pillar/filebeat.sls
 $ cp -v salt/roots/pillar/nginx.sls.example salt/roots/pillar/nginx.sls
+$ cp -v salt/roots/formulas/nginx-formula/nginx/files/https.conf.example salt/roots/formulas/nginx-formula/nginx/files/https.conf
 ```
 
 Copy vagrant file from `vagrant/examples/` and then create the vagrant box (you can change to `--provider=libvirt` if you want to use Libvirt provider):
@@ -27,5 +30,5 @@ $ vagrant ssh nginx-box -- sudo salt-call state.highstate
 
 Deploy NGINX with self-signed certificate:
 ```
-$ vagrant ssh nginx-box -- sudo salt-call state.sls nginx
+$ vagrant ssh nginx-box -- sudo salt-call state.sls nginx,nginx.service
 ```
