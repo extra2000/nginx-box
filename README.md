@@ -32,3 +32,8 @@ Deploy NGINX with self-signed certificate:
 ```
 $ vagrant ssh nginx-box -- sudo salt-call state.sls nginx,nginx.service
 ```
+
+Optionally, deploy Filebeat for log monitoring via ELK:
+```
+$ vagrant ssh nginx-box -- sudo salt-call state.sls filebeat
+```
