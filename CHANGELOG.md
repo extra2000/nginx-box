@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/extra2000/nginx-box/compare/v1.1.0...v1.2.0) (2021-03-15)
+
+
+### Features
+
+* **submodule:** Upgrade `filebeat-formula` to [v2.1.0](https://github.com/extra2000/filebeat-formula/releases/tag/v2.1.0) ([180a4d4](https://github.com/extra2000/nginx-box/commit/180a4d4ece427981601263e75e841a29c248637d))
+
+
+### Documentations
+
+* **README:** Add instruction to deploy Filebeat ([8d9ad79](https://github.com/extra2000/nginx-box/commit/8d9ad799115f229073401c874ce3edee633fcc73))
+
 ## [1.1.0](https://github.com/extra2000/nginx-box/compare/v1.0.0...v1.1.0) (2021-03-14)
 
 
