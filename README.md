@@ -11,6 +11,7 @@ Developer box for [NGINX](https://www.nginx.com/).
 
 Copy example pillar file NGINX. Optionally you may want to edit the values in the `nginx.sls`:
 ```
+$ cp -v salt/roots/pillar/podman.sls.example salt/roots/pillar/podman.sls
 $ cp -v salt/roots/pillar/zabbix-agent.sls.example salt/roots/pillar/zabbix-agent.sls
 $ cp -v salt/roots/pillar/filebeat.sls.example salt/roots/pillar/filebeat.sls
 $ cp -v salt/roots/pillar/nginx.sls.example salt/roots/pillar/nginx.sls
