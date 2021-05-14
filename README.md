@@ -19,7 +19,7 @@ $ cp -v salt/roots/formulas/nginx-formula/nginx/files/https.conf.example salt/ro
 
 Copy vagrant file from `vagrant/examples/` and then create the vagrant box (you can change to `--provider=libvirt` if you want to use Libvirt provider):
 ```
-$ cp -v vagrant/examples/Vagrantfile.nginx-box.fedora-33.x86_64.example vagrant/Vagrantfile.nginx-box
+$ cp -v vagrant/examples/Vagrantfile.nginx-box.fedora-34.x86_64.example vagrant/Vagrantfile.nginx-box
 $ vagrant up --provider=virtualbox
 ```
 
