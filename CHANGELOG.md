@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.0.1](https://github.com/extra2000/nginx-box/compare/v2.0.0...v2.0.1) (2021-05-16)
+
+
+### Fixes
+
+* **nginx-formula:** patch update to `v3.0.1` ([9abc493](https://github.com/extra2000/nginx-box/commit/9abc4931c4b79ddcbaae55664cb9110c1dea2e74))
+
 ## [2.0.0](https://github.com/extra2000/nginx-box/compare/v1.2.0...v2.0.0) (2021-05-15)
 
 
